@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/HomePage"
+import Landing from "./pages/Landing";
 
 
 function Router() {
@@ -8,7 +8,7 @@ function Router() {
 
         <BrowserRouter>
         <Routes>
-            <Route index element={<Home/>}/>
+            <Route index element={<Landing/>}/>
         </Routes>
         </BrowserRouter>
     )
