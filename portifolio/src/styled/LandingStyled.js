@@ -16,6 +16,10 @@ export const LandingContainer = styled.div`
     height: 100%;
     width: 100%;
     position: relative;
+
+    @media (max-width: 920px) {
+      flex-direction: column-reverse;
+   }
 `
 
 export const LandingLeft = styled.div`
@@ -26,6 +30,10 @@ export const LandingLeft = styled.div`
     align-items:flex-end;
     justify-content: flex-start;
     background-color: #e8f1f2;
+
+    @media (max-width: 920px) {
+      display: none;
+   }
     
 
 `
@@ -42,6 +50,9 @@ export const MyImage = styled.img`
     box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
     transition: opacity 0.3s;
 
+    @media (max-width: 920px) {
+      margin: 1rem auto;
+   }
 `
 
 
@@ -62,7 +73,10 @@ export const ContainerLink = styled.div`
     box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
     border-radius: 20%;
    }
-
+   @media (max-width: 920px) {
+      display :flex ;
+      align-items: center;
+   }
 `
 
 export const LandingRight = styled.div`
@@ -94,12 +108,84 @@ export const LandingRight = styled.div`
     font-size: 4.25rem;
     line-height: 110%;
     margin: 1rem 0;
-   }
-
+   } 
+   
    p{
     margin-top: 1.45rem;
     font-weight: 500;
     font-size: 1.15rem;
     opacity: 0.7;
    }
+   @media (max-width: 920px) {
+      width: 100%;
+      align-items: flex-start;
+
+      div {
+         margin-right: 0;
+      }
+      h2{
+        font-weight: 800;
+        font-size: 1.95rem;
+        opacity: 0.8;
+        }
+      h1{
+        font-weight: 900;
+        font-size: 3.20rem;
+        line-height: 90%;
+        margin: 1rem 0;
+        } 
+   }
    `
+// Media Query
+// export const MediaQueryStyles = styled.div`
+//    @media only screen and (max-width: 920px) and (max-width: 523px) {
+//       ${LandingRight} {
+//          flex-direction: row-reverse;
+//          align-items: flex-start;
+//          justify-content: flex-start;
+//       }
+
+//       ${LandingLeft} {
+//          display: none;
+//       }
+
+//       ${MyImage} {
+//          margin: 1rem;
+//       }
+
+//       ${LandingRight} {
+//          width: 100%;
+//          align-items: flex-start;
+
+//          div {
+//             margin-right: 0;
+//          }
+//       }
+//    }
+// `
+
+// export const LandingRightWithMediaQuery = styled(LandingRight)`
+//    ${MediaQueryStyles}
+// `
+ /* @media only screen and (max-width: 920px) and (max-height: 523px) {
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      ${LandingLeft} {
+         display: none;
+      }
+
+      ${MyImage} {
+         margin: 1rem;
+      }
+
+      ${LandingRight} {
+         width: 100%;
+         align-items: flex-start;
+
+         div {
+            margin-right: 0;
+         }
+      }
+   } */

@@ -20,4 +20,16 @@ export const SkillSection = styled.section`
         width: 60%;
         height: 80%;
     }
+
+    @media (max-width: 920px) {
+        width: 80%;
+        height: 100%;
+
+        
+    div{
+        width: 100%; 
+        height: 100%; 
+        margin: -1%;
+    }
+   }
 `

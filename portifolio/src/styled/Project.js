@@ -46,8 +46,8 @@ export const BodyContainer = styled.div`
     `
 
 export const SectionProject = styled.div`
-    width: 100%;
-    max-width: 400px;
+    width: auto;
+    max-width: 180rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@ export const SectionProject = styled.div`
     justify-content: space-between;
     position: relative;
 div{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,20 +69,24 @@ h2{
     text-align: center;
 }
  img{
-    width: 80%;
+    width: 70%;
     height: auto;
 
 }
 p{
-    padding-bottom: -5%;
+    display: flex;
+    text-align: center;
+    font-family: var(--familyFont);
+    font: normal;
 
 }
 button{
+  margin-bottom: 10%;
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  padding: 10px 20px;
+  padding: 4% 5%;
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
@@ -99,7 +104,17 @@ button:active {
   background-color: #cc0000;
 }
    
- 
+@media (max-width: 920px) {
+    /* max-width: 100%; */
+      button{
+        margin-bottom: -10%;
+        font-size: 10%;
+      }
+
+      p{
+        display: none;
+      }
+   }
 
 
 `
