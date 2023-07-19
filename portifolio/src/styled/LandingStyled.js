@@ -109,13 +109,13 @@ export const LandingRight = styled.div`
     line-height: 110%;
     margin: 1rem 0;
    } 
-   
+/*    
    p{
     margin-top: 1.45rem;
     font-weight: 500;
     font-size: 1.15rem;
     opacity: 0.7;
-   }
+   } */
    @media (max-width: 920px) {
       width: 100%;
       align-items: flex-start;

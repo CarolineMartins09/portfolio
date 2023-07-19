@@ -1,6 +1,6 @@
 import React from "react";
 import { Main, LandingContainer, LandingLeft, LandingRight, ContainerLink, MyImage } from "../styled/LandingStyled";
-import { ProjectContainer, BodyContainer, ProjectBody, SectionProject } from "../styled/Project"
+import { ProjectContainer, BodyContainer, ProjectBody, SectionProject, LabefoodImg, SectionProjectLabefood } from "../styled/Project"
 import { SkillSection, Portfolio } from "../styled/Skills";
 import imagemLinkedin from "../image/icons8-linkedin-100.png"
 import imagemGithub from "../image/icons8-github-100.png"
@@ -81,10 +81,11 @@ function Landing() {
                         <div>
                             <SectionProject>
                                 <h2>Labefood</h2>
-                                <p>Projeto realizado em grupo 100% mobile inspirado em serviços de 
+                                <p>100% mobile inspirado em serviços de 
                                     delivery de restaurantes, feito por um UI/UX designer profissional e 
-                                    sendo replicado com suas devidas funcionalidades, projeto onde me
-                                    destaquei pela organização, auxilio e liderança.</p>
+                                    sendo replicado com suas devidas funcionalidades.</p>
+                                    <b>Poderá fazer novo acesso ou usar o já cadastrado.</b>
+                                    <br/><b>acesso:  <br/>senha:<br/></b>
                                 <img src={ProjetoLabefood} />
                                 <div>
 
@@ -101,8 +102,8 @@ function Landing() {
                                 <h2>Labex</h2>
                                 <p>100% responsivo para versão desktop e mobile. Site de viagens interplanetárias com acesso ADMIN onde 
                                     o cliente pode se candidatar a viagens e o ADMIN aprova-lo ou não podendo também criar novas viagens.<br/>
-                                    <br/><b>acesso admin:  <br/>senha:<br/></b>
                                     </p>
+                                    <br/><b>acesso admin:  <br/>senha:<br/></b>
                                 <img src={ProjetoLabex}></img>
                                 <div>
 
@@ -116,14 +117,14 @@ function Landing() {
                         <div>
                             <SectionProject>
 
-                                <h2>labex</h2>
+                                <h2>4Cars</h2>
                                 <p>100% responsivo para versão desktop e mobile. Site de viagens interplanetárias com acesso ADMIN onde 
                                     o cliente pode se candidatar a viagens e o ADMIN aprova-lo ou não podendo também criar novas viagens.<br/>
                                     <br/><b>acesso admin:  <br/>senha:<br/></b></p>
                                 <img src={ProjetoLabex}></img>
                                 <div>
 
-                                    <a href="https://hanging-fork.surge.sh/">
+                                    <a href="http://dramatic-brush.surge.sh/index.html">
                                         <button> Acesso ao Site</button>
                                     </a>
 
