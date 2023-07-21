@@ -82,8 +82,8 @@ export const ContainerLink = styled.div`
 export const LandingRight = styled.div`
     flex: 65% 1;
     height: 100%;
-    /* background-color: #247ba0; */
-    background-color: #1b98e0;
+    background-color: #247ba0;
+    /* background-color: #1b98e0; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -102,20 +102,22 @@ export const LandingRight = styled.div`
     font-size: 2.25rem;
     margin-bottom: -0.85rem;
     opacity: 0.8;
+    color: #e8f1f2;
    }
    h1{
     font-weight: 1000;
     font-size: 4.25rem;
     line-height: 110%;
     margin: 1rem 0;
+    color: #e8f1f2;
    } 
-/*    
+   
    p{
     margin-top: 1.45rem;
     font-weight: 500;
     font-size: 1.15rem;
-    opacity: 0.7;
-   } */
+    color: #e8f1f2;
+   }
    @media (max-width: 920px) {
       width: 100%;
       align-items: flex-start;
