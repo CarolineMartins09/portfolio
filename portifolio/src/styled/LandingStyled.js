@@ -131,7 +131,7 @@ export const LandingRight = styled.div`
         opacity: 0.8;
         }
       h1{
-        font-weight: 900;
+        font-weight: 800;
         font-size: 3.20rem;
         line-height: 90%;
         margin: 1rem 0;

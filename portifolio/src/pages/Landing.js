@@ -122,7 +122,7 @@ function Landing() {
                                 <img src={ProjetoLabex} alt= "Labex"></img>
                                 <div>
 
-                                    <a href="https://hanging-fork.surge.sh/">
+                                    <a href="https://tightfisted-space.surge.sh/">
                                         <button> Acesso ao Site</button>
                                     </a>
 
